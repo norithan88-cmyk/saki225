@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "freq": {
+      "trades": [],
+      "stats": {
+        "total_closed": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate_pct": null,
+        "avg_win_pt": null,
+        "avg_loss_pt": null,
+        "profit_factor": null,
+        "total_pt": 0.0
+      }
+    },
+    "long": {
+      "trades": [],
+      "stats": {
+        "total_closed": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate_pct": null,
+        "avg_win_pt": null,
+        "avg_loss_pt": null,
+        "profit_factor": null,
+        "total_pt": 0.0
+      }
+    }
+  },
+  "updated_at_utc": "2026-08-31T08:57:38.983781+00:00"
+}
