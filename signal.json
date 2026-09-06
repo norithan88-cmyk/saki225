@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-06T01:05:30.038764+00:00",
+  "generated_at_utc": "2026-09-06T05:52:55.915014+00:00",
   "pair": "日経225先物（NIY=F、CME円建て、大阪取引所の日経225先物の代理指標）",
   "latest_price": 65830.0,
   "variants": {
@@ -25,11 +25,11 @@
         {
           "key": "h1",
           "label": "1時間足",
-          "position_sigma": 0.68,
+          "position_sigma": 0.56,
           "momentum": "FLAT",
-          "mid": 65592.1,
-          "upper": 66291.2,
-          "lower": 64893.0
+          "mid": 65641.8,
+          "upper": 66310.9,
+          "lower": 64972.7
         },
         {
           "key": "h4",
