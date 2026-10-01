@@ -14,6 +14,19 @@
           "closed_at_utc": "2026-09-16T12:12:01.478565+00:00",
           "closed_price": 64210.0,
           "pnl_pt": 400.0
+        },
+        {
+          "id": "2026-10-01T02:31:18.921524+00:00",
+          "opened_at_utc": "2026-10-01T02:31:18.921524+00:00",
+          "bias": "BUY",
+          "entry": 68485.0,
+          "take_profit": 68795.0,
+          "stop_loss": 68145.0,
+          "confidence": 88,
+          "status": "OPEN",
+          "closed_at_utc": null,
+          "closed_price": null,
+          "pnl_pt": null
         }
       ],
       "stats": {
@@ -67,6 +80,19 @@
           "closed_at_utc": "2026-09-22T00:50:37.637296+00:00",
           "closed_price": 66890.0,
           "pnl_pt": 1015.0
+        },
+        {
+          "id": "2026-10-01T02:31:18.921524+00:00",
+          "opened_at_utc": "2026-10-01T02:31:18.921524+00:00",
+          "bias": "BUY",
+          "entry": 68485.0,
+          "take_profit": 69875.0,
+          "stop_loss": 66995.0,
+          "confidence": 89,
+          "status": "OPEN",
+          "closed_at_utc": null,
+          "closed_price": null,
+          "pnl_pt": null
         }
       ],
       "stats": {
@@ -81,5 +107,5 @@
       }
     }
   },
-  "updated_at_utc": "2026-09-30T23:49:15.201464+00:00"
+  "updated_at_utc": "2026-10-01T02:31:18.921524+00:00"
 }
