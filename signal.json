@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-10-02T13:10:26.749056+00:00",
+  "generated_at_utc": "2026-10-02T18:24:44.134573+00:00",
   "pair": "日経225先物（NIY=F、CME円建て、大阪取引所の日経225先物の代理指標）",
-  "latest_price": 69835.0,
+  "latest_price": 69795.0,
   "variants": {
     "freq": {
       "key": "freq",
       "label": "頻度重視版（1時間・4時間一致＋5分反発）",
       "backtest_note": "70日間・42件・勝率85.7%・PF3.89・月18件ペース（BUY17件PF7.07／SELL25件PF3.18）",
-      "latest_price": 69835.0,
+      "latest_price": 69795.0,
       "signal": {
         "bias": "WAIT",
         "bias_label": "方向感なし",
@@ -25,20 +25,20 @@
         {
           "key": "h1",
           "label": "1時間足",
-          "position_sigma": 0.94,
+          "position_sigma": 0.23,
           "momentum": "FLAT",
-          "mid": 69337.1,
-          "upper": 70396.7,
-          "lower": 68277.5
+          "mid": 69693.6,
+          "upper": 70558.7,
+          "lower": 68828.4
         },
         {
           "key": "h4",
           "label": "4時間足",
-          "position_sigma": 1.38,
-          "momentum": "UP",
-          "mid": 68689.1,
-          "upper": 70345.1,
-          "lower": 67033.2
+          "position_sigma": 1.08,
+          "momentum": "FLAT",
+          "mid": 68869.7,
+          "upper": 70589.7,
+          "lower": 67149.7
         }
       ]
     },
@@ -46,41 +46,38 @@
       "key": "long",
       "label": "長期検証版（4時間・日足一致＋1時間反発）",
       "backtest_note": "2年間・52件・勝率73.1%・PF2.71・月2.1件ペース（BUY30件PF2.12／SELL22件PF3.90）",
-      "latest_price": 69835.0,
+      "latest_price": 69795.0,
       "signal": {
-        "bias": "BUY",
-        "bias_label": "押し目買い優勢",
-        "stars": 4,
-        "confidence": 89
+        "bias": "WAIT",
+        "bias_label": "方向感なし",
+        "stars": 2,
+        "confidence": 50
       },
       "priority_trade": {
-        "lead": "押し目買い ― 4時間足・日足の上昇方向一致＋1時間足の押し目からの反発",
-        "entry": 69835.0,
-        "take_profit": 71240.0,
-        "stop_loss": 68330.0
+        "lead": "様子見 ― 4時間足・日足の方向が一致していない",
+        "entry": null,
+        "take_profit": null,
+        "stop_loss": null
       },
-      "reversal_setup": {
-        "extreme": 68430.0,
-        "reverted_pt": 1405.0
-      },
+      "reversal_setup": null,
       "channels": [
         {
           "key": "h4",
           "label": "4時間足",
-          "position_sigma": 1.66,
-          "momentum": "UP",
-          "mid": 68978.1,
-          "upper": 70007.8,
-          "lower": 67948.4
+          "position_sigma": 1.1,
+          "momentum": "FLAT",
+          "mid": 69150.2,
+          "upper": 70322.7,
+          "lower": 67977.7
         },
         {
           "key": "d1",
           "label": "日足",
-          "position_sigma": 1.93,
+          "position_sigma": 1.92,
           "momentum": "UP",
-          "mid": 67160.5,
-          "upper": 69937.5,
-          "lower": 64383.5
+          "mid": 67153.2,
+          "upper": 69911.5,
+          "lower": 64394.8
         }
       ]
     }
