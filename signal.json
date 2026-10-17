@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-17T00:48:22.512518+00:00",
+  "generated_at_utc": "2026-10-17T05:04:25.135404+00:00",
   "pair": "日経225先物（NIY=F、CME円建て、大阪取引所の日経225先物の代理指標）",
   "latest_price": 63610.0,
   "variants": {
@@ -15,7 +15,7 @@
         "confidence": 50
       },
       "priority_trade": {
-        "lead": "様子見 ― 1時間足・4時間足の方向が一致していない",
+        "lead": "様子見 ― 1時間足・4時間足は戻り売り方向で一致、5分足の反落シグナル待ち",
         "entry": null,
         "take_profit": null,
         "stop_loss": null
@@ -25,20 +25,20 @@
         {
           "key": "h1",
           "label": "1時間足",
-          "position_sigma": -1.04,
-          "momentum": "FLAT",
-          "mid": 64370.0,
-          "upper": 65833.6,
-          "lower": 62906.4
+          "position_sigma": -1.33,
+          "momentum": "DOWN",
+          "mid": 64531.0,
+          "upper": 65913.5,
+          "lower": 63148.4
         },
         {
           "key": "h4",
           "label": "4時間足",
           "position_sigma": -1.4,
           "momentum": "DOWN",
-          "mid": 64953.8,
-          "upper": 66872.3,
-          "lower": 63035.3
+          "mid": 64955.8,
+          "upper": 66876.9,
+          "lower": 63034.7
         }
       ]
     },
@@ -56,12 +56,12 @@
       "priority_trade": {
         "lead": "戻り売り ― 4時間足・日足の下降方向一致＋1時間足の戻りからの反落",
         "entry": 63610.0,
-        "take_profit": 61825.0,
-        "stop_loss": 65495.0
+        "take_profit": 61730.0,
+        "stop_loss": 65590.0
       },
       "reversal_setup": {
-        "extreme": 65395.0,
-        "reverted_pt": 1785.0
+        "extreme": 65490.0,
+        "reverted_pt": 1880.0
       },
       "channels": [
         {
@@ -69,18 +69,18 @@
           "label": "4時間足",
           "position_sigma": -1.56,
           "momentum": "DOWN",
-          "mid": 64786.7,
-          "upper": 66296.7,
-          "lower": 63276.7
+          "mid": 64787.6,
+          "upper": 66293.5,
+          "lower": 63281.7
         },
         {
           "key": "d1",
           "label": "日足",
-          "position_sigma": -1.62,
+          "position_sigma": -1.59,
           "momentum": "DOWN",
-          "mid": 66910.0,
-          "upper": 70995.1,
-          "lower": 62824.8
+          "mid": 66930.0,
+          "upper": 70969.2,
+          "lower": 62890.7
         }
       ]
     }
