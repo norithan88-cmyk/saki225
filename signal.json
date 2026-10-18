@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-18T00:35:30.176795+00:00",
+  "generated_at_utc": "2026-10-18T05:05:40.957092+00:00",
   "pair": "日経225先物（NIY=F、CME円建て、大阪取引所の日経225先物の代理指標）",
   "latest_price": 63925.0,
   "variants": {
@@ -25,20 +25,20 @@
         {
           "key": "h1",
           "label": "1時間足",
-          "position_sigma": -0.98,
+          "position_sigma": -0.78,
           "momentum": "FLAT",
-          "mid": 64569.2,
-          "upper": 65883.2,
-          "lower": 63255.1
+          "mid": 64447.2,
+          "upper": 65788.4,
+          "lower": 63106.1
         },
         {
           "key": "h4",
           "label": "4時間足",
-          "position_sigma": -1.15,
+          "position_sigma": -1.16,
           "momentum": "FLAT",
-          "mid": 64993.2,
-          "upper": 66843.4,
-          "lower": 63143.0
+          "mid": 64995.2,
+          "upper": 66847.9,
+          "lower": 63142.5
         }
       ]
     },
@@ -56,31 +56,31 @@
       "priority_trade": {
         "lead": "戻り売り ― 4時間足・日足の下降方向一致＋1時間足の戻りからの反落",
         "entry": 63925.0,
-        "take_profit": 62360.0,
-        "stop_loss": 65590.0
+        "take_profit": 62455.0,
+        "stop_loss": 65495.0
       },
       "reversal_setup": {
-        "extreme": 65490.0,
-        "reverted_pt": 1565.0
+        "extreme": 65395.0,
+        "reverted_pt": 1470.0
       },
       "channels": [
         {
           "key": "h4",
           "label": "4時間足",
-          "position_sigma": -1.31,
+          "position_sigma": -1.32,
           "momentum": "DOWN",
-          "mid": 64844.0,
-          "upper": 66244.2,
-          "lower": 63443.8
+          "mid": 64844.9,
+          "upper": 66240.7,
+          "lower": 63449.1
         },
         {
           "key": "d1",
           "label": "日足",
-          "position_sigma": -1.59,
+          "position_sigma": -1.54,
           "momentum": "DOWN",
-          "mid": 66930.0,
-          "upper": 70969.2,
-          "lower": 62890.7
+          "mid": 66967.2,
+          "upper": 70922.3,
+          "lower": 63012.2
         }
       ]
     }
