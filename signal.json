@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-10-19T19:48:05.446803+00:00",
+  "generated_at_utc": "2026-10-19T23:08:25.611767+00:00",
   "pair": "日経225先物（NIY=F、CME円建て、大阪取引所の日経225先物の代理指標）",
-  "latest_price": 64895.0,
+  "latest_price": 64885.0,
   "variants": {
     "freq": {
       "key": "freq",
       "label": "頻度重視版（1時間・4時間一致＋5分反発）",
       "backtest_note": "70日間・42件・勝率85.7%・PF3.89・月18件ペース（BUY17件PF7.07／SELL25件PF3.18）",
-      "latest_price": 64895.0,
+      "latest_price": 64885.0,
       "signal": {
         "bias": "WAIT",
         "bias_label": "方向感なし",
@@ -25,20 +25,20 @@
         {
           "key": "h1",
           "label": "1時間足",
-          "position_sigma": 0.3,
+          "position_sigma": 0.37,
           "momentum": "FLAT",
-          "mid": 64849.3,
-          "upper": 65090.4,
-          "lower": 64608.3
+          "mid": 64839.9,
+          "upper": 65081.5,
+          "lower": 64598.4
         },
         {
           "key": "h4",
           "label": "4時間足",
-          "position_sigma": 0.15,
+          "position_sigma": 0.2,
           "momentum": "FLAT",
-          "mid": 64792.0,
-          "upper": 66021.1,
-          "lower": 63562.9
+          "mid": 64761.2,
+          "upper": 65975.4,
+          "lower": 63547.0
         }
       ]
     },
@@ -64,11 +64,11 @@
         {
           "key": "h4",
           "label": "4時間足",
-          "position_sigma": 0.38,
+          "position_sigma": 0.42,
           "momentum": "FLAT",
-          "mid": 64697.5,
-          "upper": 65684.3,
-          "lower": 63710.8
+          "mid": 64712.2,
+          "upper": 65526.6,
+          "lower": 63897.8
         },
         {
           "key": "d1",
