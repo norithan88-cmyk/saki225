@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-10-21T06:39:26.855957+00:00",
+  "generated_at_utc": "2026-10-21T12:25:55.712151+00:00",
   "pair": "日経225先物（NIY=F、CME円建て、大阪取引所の日経225先物の代理指標）",
-  "latest_price": 64815.0,
+  "latest_price": 64950.0,
   "variants": {
     "freq": {
       "key": "freq",
       "label": "頻度重視版（1時間・4時間一致＋5分反発）",
       "backtest_note": "70日間・42件・勝率85.7%・PF3.89・月18件ペース（BUY17件PF7.07／SELL25件PF3.18）",
-      "latest_price": 64815.0,
+      "latest_price": 64950.0,
       "signal": {
         "bias": "WAIT",
         "bias_label": "方向感なし",
@@ -25,20 +25,20 @@
         {
           "key": "h1",
           "label": "1時間足",
-          "position_sigma": -0.85,
+          "position_sigma": 0.36,
           "momentum": "FLAT",
-          "mid": 64984.3,
-          "upper": 65383.2,
-          "lower": 64585.4
+          "mid": 64868.1,
+          "upper": 65318.0,
+          "lower": 64418.2
         },
         {
           "key": "h4",
           "label": "4時間足",
-          "position_sigma": 0.03,
+          "position_sigma": 0.28,
           "momentum": "FLAT",
-          "mid": 64803.8,
-          "upper": 65589.3,
-          "lower": 64018.2
+          "mid": 64850.5,
+          "upper": 65570.0,
+          "lower": 64130.9
         }
       ]
     },
@@ -46,7 +46,7 @@
       "key": "long",
       "label": "長期検証版（4時間・日足一致＋1時間反発）",
       "backtest_note": "2年間・52件・勝率73.1%・PF2.71・月2.1件ペース（BUY30件PF2.12／SELL22件PF3.90）",
-      "latest_price": 64815.0,
+      "latest_price": 64950.0,
       "signal": {
         "bias": "WAIT",
         "bias_label": "方向感なし",
@@ -64,20 +64,20 @@
         {
           "key": "h4",
           "label": "4時間足",
-          "position_sigma": -0.07,
+          "position_sigma": 0.07,
           "momentum": "FLAT",
-          "mid": 64846.0,
-          "upper": 65680.0,
-          "lower": 64012.0
+          "mid": 64919.7,
+          "upper": 65765.9,
+          "lower": 64073.5
         },
         {
           "key": "d1",
           "label": "日足",
-          "position_sigma": -0.37,
+          "position_sigma": -0.31,
           "momentum": "FLAT",
-          "mid": 65486.4,
-          "upper": 69075.1,
-          "lower": 61897.7
+          "mid": 65510.9,
+          "upper": 69077.8,
+          "lower": 61944.1
         }
       ]
     }
