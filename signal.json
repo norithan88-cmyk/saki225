@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-10-26T19:51:33.967721+00:00",
+  "generated_at_utc": "2026-10-26T23:25:53.609590+00:00",
   "pair": "日経225先物（NIY=F、CME円建て、大阪取引所の日経225先物の代理指標）",
-  "latest_price": 62885.0,
+  "latest_price": 62935.0,
   "variants": {
     "freq": {
       "key": "freq",
       "label": "頻度重視版（1時間・4時間一致＋5分反発）",
       "backtest_note": "70日間・42件・勝率85.7%・PF3.89・月18件ペース（BUY17件PF7.07／SELL25件PF3.18）",
-      "latest_price": 62885.0,
+      "latest_price": 62935.0,
       "signal": {
         "bias": "WAIT",
         "bias_label": "方向感なし",
@@ -27,18 +27,18 @@
           "label": "1時間足",
           "position_sigma": -0.01,
           "momentum": "FLAT",
-          "mid": 62888.8,
-          "upper": 63417.1,
-          "lower": 62360.4
+          "mid": 62937.2,
+          "upper": 63287.1,
+          "lower": 62587.3
         },
         {
           "key": "h4",
           "label": "4時間足",
-          "position_sigma": 0.9,
+          "position_sigma": 1.0,
           "momentum": "FLAT",
-          "mid": 62662.5,
-          "upper": 63154.5,
-          "lower": 62170.4
+          "mid": 62694.6,
+          "upper": 63175.2,
+          "lower": 62214.0
         }
       ]
     },
@@ -46,7 +46,7 @@
       "key": "long",
       "label": "長期検証版（4時間・日足一致＋1時間反発）",
       "backtest_note": "2年間・52件・勝率73.1%・PF2.71・月2.1件ペース（BUY30件PF2.12／SELL22件PF3.90）",
-      "latest_price": 62885.0,
+      "latest_price": 62935.0,
       "signal": {
         "bias": "WAIT",
         "bias_label": "方向感なし",
@@ -64,20 +64,20 @@
         {
           "key": "h4",
           "label": "4時間足",
-          "position_sigma": 0.73,
+          "position_sigma": 0.81,
           "momentum": "FLAT",
-          "mid": 62712.8,
-          "upper": 63181.9,
-          "lower": 62243.7
+          "mid": 62754.6,
+          "upper": 63198.1,
+          "lower": 62311.2
         },
         {
           "key": "d1",
           "label": "日足",
-          "position_sigma": -0.54,
+          "position_sigma": -0.52,
           "momentum": "FLAT",
-          "mid": 63795.9,
-          "upper": 67155.6,
-          "lower": 60436.2
+          "mid": 63805.0,
+          "upper": 67154.8,
+          "lower": 60455.2
         }
       ]
     }
