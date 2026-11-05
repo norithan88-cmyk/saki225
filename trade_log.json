@@ -145,6 +145,19 @@
           "closed_at_utc": "2026-10-22T17:56:12.775321+00:00",
           "closed_price": 62865.0,
           "pnl_pt": 1315.0
+        },
+        {
+          "id": "2026-11-05T17:18:14.583363+00:00",
+          "opened_at_utc": "2026-11-05T17:18:14.583363+00:00",
+          "bias": "SELL",
+          "entry": 58545.0,
+          "take_profit": 55625.0,
+          "stop_loss": 61565.0,
+          "confidence": 89,
+          "status": "OPEN",
+          "closed_at_utc": null,
+          "closed_price": null,
+          "pnl_pt": null
         }
       ],
       "stats": {
@@ -159,5 +172,5 @@
       }
     }
   },
-  "updated_at_utc": "2026-11-05T09:00:11.225100+00:00"
+  "updated_at_utc": "2026-11-05T17:18:14.583363+00:00"
 }
