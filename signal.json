@@ -1,44 +1,47 @@
 {
-  "generated_at_utc": "2026-11-16T11:04:33.322551+00:00",
+  "generated_at_utc": "2026-11-16T20:57:31.946130+00:00",
   "pair": "日経225先物（NIY=F、CME円建て、大阪取引所の日経225先物の代理指標）",
-  "latest_price": 60005.0,
+  "latest_price": 59235.0,
   "variants": {
     "freq": {
       "key": "freq",
       "label": "頻度重視版（1時間・4時間一致＋5分反発）",
       "backtest_note": "70日間・42件・勝率85.7%・PF3.89・月18件ペース（BUY17件PF7.07／SELL25件PF3.18）",
-      "latest_price": 60005.0,
+      "latest_price": 59235.0,
       "signal": {
-        "bias": "WAIT",
-        "bias_label": "方向感なし",
-        "stars": 2,
-        "confidence": 50
+        "bias": "SELL",
+        "bias_label": "戻り売り優勢",
+        "stars": 4,
+        "confidence": 87
       },
       "priority_trade": {
-        "lead": "様子見 ― 1時間足・4時間足の方向が一致していない",
-        "entry": null,
-        "take_profit": null,
-        "stop_loss": null
+        "lead": "戻り売り ― 1時間足・4時間足の下降方向一致＋5分足の戻りからの反落",
+        "entry": 59235.0,
+        "take_profit": 58940.0,
+        "stop_loss": 59560.0
       },
-      "reversal_setup": null,
+      "reversal_setup": {
+        "extreme": 59530.0,
+        "reverted_pt": 295.0
+      },
       "channels": [
         {
           "key": "h1",
           "label": "1時間足",
-          "position_sigma": -0.22,
-          "momentum": "FLAT",
-          "mid": 60114.8,
-          "upper": 61097.7,
-          "lower": 59132.0
+          "position_sigma": -1.51,
+          "momentum": "DOWN",
+          "mid": 59655.0,
+          "upper": 60209.8,
+          "lower": 59100.2
         },
         {
           "key": "h4",
           "label": "4時間足",
-          "position_sigma": -1.43,
+          "position_sigma": -1.37,
           "momentum": "DOWN",
-          "mid": 60789.8,
-          "upper": 61887.8,
-          "lower": 59691.9
+          "mid": 60291.8,
+          "upper": 61830.0,
+          "lower": 58753.7
         }
       ]
     },
@@ -46,7 +49,7 @@
       "key": "long",
       "label": "長期検証版（4時間・日足一致＋1時間反発）",
       "backtest_note": "2年間・52件・勝率73.1%・PF2.71・月2.1件ペース（BUY30件PF2.12／SELL22件PF3.90）",
-      "latest_price": 60005.0,
+      "latest_price": 59235.0,
       "signal": {
         "bias": "WAIT",
         "bias_label": "方向感なし",
@@ -64,20 +67,20 @@
         {
           "key": "h4",
           "label": "4時間足",
-          "position_sigma": -1.0,
+          "position_sigma": -1.16,
           "momentum": "FLAT",
-          "mid": 60596.7,
-          "upper": 61786.1,
-          "lower": 59407.4
+          "mid": 59991.7,
+          "upper": 61295.0,
+          "lower": 58688.5
         },
         {
           "key": "d1",
           "label": "日足",
-          "position_sigma": -0.29,
+          "position_sigma": -0.6,
           "momentum": "FLAT",
-          "mid": 60556.3,
-          "upper": 64422.9,
-          "lower": 56689.8
+          "mid": 60416.3,
+          "upper": 64366.6,
+          "lower": 56466.1
         }
       ]
     }
